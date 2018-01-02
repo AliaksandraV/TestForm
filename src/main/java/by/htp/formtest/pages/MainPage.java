@@ -22,6 +22,8 @@ public class MainPage extends AbstractPage
 	
 	@FindBy(className = "sb-searchbox__button")
 	private WebElement searchButton;
+	
+	
 
 	public MainPage(WebDriver driver)
 	{
